@@ -1,0 +1,97 @@
+.sectionContainer {
+  width: 100%;
+  padding: 60px 0px 20px;
+  /* background: #2a2a2a; */
+  scroll-margin-top: 4.5rem;
+}
+.sectionContainer h2 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 40px;
+}
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  text-transform: uppercase;
+}
+.sectionTitle::before,
+.sectionTitle::after {
+  content: "";
+  flex: 1;
+  height: 4px;
+  background: #444;
+}
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 0 2em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background: #1c1c1c;
+  border-radius: 12px;
+  /* padding: 30px; */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  gap: 20px;
+}
+.projectCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(0, 119, 255, 0.3);
+}
+.projectCard h3 {
+  margin-top: 0;
+}
+.description {
+  color: rgb(182, 181, 181);
+  font-weight: 400;
+  font-size: small;
+  margin-bottom: 10;
+}
+.projectCard img {
+  width: 100%;
+  /* max-width: 400px; */
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  background: #2a2a2a;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.projectCard li {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  text-align: left;
+  color: rgb(177, 176, 176);
+  font-size: 0.8em;
+  font-weight: 300;
+  padding-block: 10;
+}
+
+.projectCard li::marker {
+  color: #0c89ffff;
+}
+.projectDescrContainer {
+  padding: 20px;
+}
+.divider {
+  background-color: #3c3c3cb2;
+  width: 100%;
+  height: 1px;
+  border-radius: 9999;
+}
+.usedLang {
+  background-color: #0c89ffff;
+  color: #000000;
+  padding-inline: 15px;
+  border-radius: 10px;
+  font-weight: 500;
+}

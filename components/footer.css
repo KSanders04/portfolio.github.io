@@ -1,0 +1,13 @@
+.footer {
+  max-width: 100%;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: black;
+  margin-top: auto;
+}
+.footer h3 {
+  color: #aaa;
+  letter-spacing: 2px;
+  font-weight: normal;
+}

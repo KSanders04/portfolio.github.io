@@ -1,0 +1,74 @@
+.sectionContainer {
+  width: 100%;
+  padding: 60px 0px 20px;
+  /* background: #2a2a2a; */
+  text-align: center;
+  scroll-margin-top: 4.5rem;
+}
+.sectionContainer h2 {
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 40px;
+}
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  text-transform: uppercase;
+}
+.sectionTitle::before,
+.sectionTitle::after {
+  content: "";
+  flex: 1;
+  height: 4px;
+  background: #444;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-inline: 2em;
+}
+.skillContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  max-width: 1300px;
+  background: #1c1c1c;
+  border-radius: 12px;
+  padding: 30px 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skillContainer:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(0, 119, 255, 0.3);
+}
+.skillContainer h3 {
+  color: #0077ff;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.skillContainer p {
+  color: #ffffff;
+  font-size: 1rem;
+}
+.frontEndGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  justify-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+.frontEndGrid img {
+  width: 80px;
+  height: auto;
+}

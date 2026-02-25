@@ -1,0 +1,100 @@
+import "./languagesSection.css";
+import React from "react";
+import reactLogo from "../src/assets/images/ReactLogo.png";
+import javaLogo from "../src/assets/images/javaLogo.png";
+import javascriptLogo from "../src/assets/images/javascriptLogo.png";
+import nodejsLogo from "../src/assets/images/nodejsLogo.png";
+import pythonLogo from "../src/assets/images/pythonLogo.png";
+import cLogo from "../src/assets/images/cLogo.png";
+import css3Logo from "../src/assets/images/css3Logo.png";
+import html5Logo from "../src/assets/images/HTML5Logo.png";
+import sqlLogo from "../src/assets/images/SQLLogo.png";
+import typescriptLogo from "../src/assets/images/TypescriptLogo.png";
+import firebaseLogo from "../src/assets/images/FirebaseLogo.png";
+import mongodbLogo from "../src/assets/images/mongodbLogo.svg";
+import mysqlLogo from "../src/assets/images/mysqlLogo.png";
+import vueLogo from "../src/assets/images/vueLogo.png";
+
+export const LanguagesSection = () => {
+  return (
+    <section className="sectionContainer" id="languageSection">
+      <h2 className="sectionTitle" data-aos="fade-up">
+        Technical Skills
+      </h2>
+
+      <div className="wrap">
+        <div className="skillContainer" data-aos="fade-up">
+          <h3>Languages</h3>
+          <div className="frontEndGrid">
+            <img
+              className="programmingImg"
+              src={javascriptLogo}
+              alt="JavaScript"
+            />
+            <img
+              className="programmingImg"
+              src={typescriptLogo}
+              alt="TypeScript"
+            />
+            <img className="programmingImg" src={pythonLogo} alt="Python" />
+            <img className="programmingImg" src={javaLogo} alt="Java" />
+            <img className="programmingImg" src={cLogo} alt="C" />
+            <img className="programmingImg" src={sqlLogo} alt="SQL" />
+          </div>
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            width: "100%",
+            gap: 50,
+          }}
+        >
+          <div className="skillContainer" data-aos="fade-up">
+            <h3>Frontend</h3>
+            <div className="frontEndGrid">
+              <img className="programmingImg" src={html5Logo} alt="HTML5" />
+              <img className="programmingImg" src={css3Logo} alt="CSS3" />
+              <img className="programmingImg" src={reactLogo} alt="React" />
+              <img className="programmingImg" src={vueLogo} alt="Vue" />
+            </div>
+          </div>
+
+          <div className="skillContainer" data-aos="fade-up">
+            <h3>Backend</h3>
+            <div className="frontEndGrid">
+              <img className="programmingImg" src={nodejsLogo} alt="Node.js" />
+              <img
+                className="programmingImg"
+                src={firebaseLogo}
+                alt="Firebase"
+              />
+              <img className="programmingImg" src={mongodbLogo} alt="MongoDB" />{" "}
+              <img className="programmingImg" src={mysqlLogo} alt="mySQL" />
+            </div>
+          </div>
+        </div>
+        <div className="skillContainer" data-aos="fade-up">
+          <h3>Tools & Testing</h3>
+          <div className="frontEndGrid">
+            <img
+              className="programmingImg"
+              src={javascriptLogo}
+              alt="JavaScript"
+            />
+            <img
+              className="programmingImg"
+              src={typescriptLogo}
+              alt="TypeScript"
+            />
+            <img className="programmingImg" src={pythonLogo} alt="Python" />
+            <img className="programmingImg" src={javaLogo} alt="Java" />
+            <img className="programmingImg" src={cLogo} alt="C" />
+            <img className="programmingImg" src={sqlLogo} alt="SQL" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
