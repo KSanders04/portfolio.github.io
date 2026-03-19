@@ -8,13 +8,11 @@ export const PersonalPortfolio = () => {
       <div className="projectDescrContainer">
         <h3>Personal Portfolio</h3>
         <p className="description">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque illo
-          veniam consectetur minus corrupti autem suscipit? Praesentium quia id
-          voluptas animi, aliquam ipsa, velit eaque quidem at tempora magnam
-          non.
+          A modern portfolio website built with React and Vite to showcase my
+          projects, technical skills, and experience.
         </p>
-        <li>Task one</li>
-        <li>Task two</li>
+        <li>Showcases multiple projects with details and source code links</li>
+        <li>Highlights my technical skills, languages, and tools</li>
         <div
           style={{
             display: "flex",
@@ -24,7 +22,7 @@ export const PersonalPortfolio = () => {
           }}
         >
           <p className="usedLang">React</p>
-          <p className="usedLang">Javascript</p>
+          <p className="usedLang">Vite</p>
           <p className="usedLang">CSS3</p>
         </div>
         <div className="divider" />
@@ -35,7 +33,7 @@ export const PersonalPortfolio = () => {
             marginBlock: 10,
           }}
         >
-          <a href="https://github.com/KSanders04/Zombie-Land-Game">
+          <a href="https://github.com/KSanders04/portfolio.github.io">
             Source Code
           </a>
         </div>
